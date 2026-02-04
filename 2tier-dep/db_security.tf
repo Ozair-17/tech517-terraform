@@ -15,7 +15,7 @@ resource "aws_vpc_security_group_ingress_rule" "db_ssh" {
   from_port   = 22
   to_port     = 22
   ip_protocol = "tcp"
-  cidr_ipv4  = "145.40.129.215/32"
+  cidr_ipv4  = "localIp"
 }
 
 # MongoDB - ONLY from App SG
