@@ -1,0 +1,13 @@
+variable "default_aws_region" {
+  default = "eu-west-1"
+}
+
+variable "instance_type" {
+  default = "t3.micro"
+}
+
+variable "key_name" {
+  description = "AWS key pair name (same as controller)"
+  default     = "tech517-ozair-aws"
+}
+
