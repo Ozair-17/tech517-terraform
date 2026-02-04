@@ -8,3 +8,8 @@
 .DS_Store
 .vscode/
 
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+*.tfstate
+*.tfstate.backup

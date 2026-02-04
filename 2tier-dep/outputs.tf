@@ -8,6 +8,7 @@ output "db_public_ip" {
   value       = aws_instance.db.public_ip
 }
 
+
 output "ssh_app" {
   value = "ssh -i ${var.key_name}.pem ubuntu@${aws_instance.app.public_ip}"
 }

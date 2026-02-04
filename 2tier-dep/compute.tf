@@ -7,6 +7,7 @@ resource "aws_instance" "db" {
   associate_public_ip_address = false
   key_name = var.key_name
 
+
   vpc_security_group_ids = [
     aws_security_group.db_sg.id
   ]
